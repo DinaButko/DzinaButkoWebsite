@@ -1,2 +1,2 @@
 # DzinaButkoPortfolio
-#Added new files
+#Added new files to the project
