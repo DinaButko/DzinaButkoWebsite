@@ -1,1 +1,66 @@
 /* custom css goes here */
+
+/* added color underline hover */
+.navbar .navbar-nav .nav-link:hover {
+    color: #FFADF0;
+  }
+  @media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-link {
+      padding: 0.5em 0.5em;
+    }
+    .navbar {
+      padding: 0;
+    }
+    .navbar .navbar-brand {
+      padding: 0 0.7em;
+    }
+  }
+  .navbar .navbar-nav .nav-link {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #FFADF0;
+    color: transparent;
+    width: 0%;
+    content: '';
+    height: 3px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+
+  
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* Footer Section */
+footer {
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.8125em;
+    color: #ccc;
+    line-height: 1.0em;
+    background-color: #1a1a1a;
+}
+
