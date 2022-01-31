@@ -1,0 +1,46 @@
+
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+
+
+    <p> 
+        <h4>If you want to contact me, just leave a message below…</h4> 
+    </p>
+    
+<!-- Wrapper container -->
+<div class="container py-4">
+
+    <!-- Bootstrap 5 starter form -->
+    <form id="contactForm">
+  
+      <!-- Name input -->
+      <div class="mb-3">
+        <label class="form-label" for="name">Please, insert your name</label>
+        <input class="form-control" id="name" type="text" placeholder="name" />
+      </div>
+  
+      <!-- Email address input -->
+      <div class="mb-3">
+        <label class="form-label" for="emailAddress">Email address</label>
+        <input class="form-control" id="emailAddress" type="email" placeholder="email address" />
+      </div>
+  
+      <!-- Message input -->
+      <div class="mb-3">
+        <label class="form-label" for="message">Message</label>
+        <textarea class="form-control" id="message" type="text" placeholder="message" style="height: 10rem;"></textarea>
+      </div>
+  
+      <!-- Form submit button -->
+      <div class="d-grid">
+        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+      </div>
+  
+    </form>
+  
+  </div>
+
+
+    
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>
