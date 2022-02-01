@@ -3,42 +3,34 @@
 <%- include partials/main_nav.ejs %>
 
 
-    <p> 
-        <h6>If you want to contact me, just leave a message below…</h6> 
-    </p>
-    
-<!-- Wrapper container -->
-<div class="container py-4" style="max-width: 1000px;">
+  <!-- Section A: Contact Form Dzina Butko -->
+  <section id="contact-a" class="text-center py-3">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="bottom-line"></div>
+      <p class="lead">Here is how you can reach me</p>
 
-    <!-- Bootstrap 5 starter form -->
-    <form id="contactForm">
-  
-      <!-- Name input -->
-      <div class="mb-3">
-        <label class="form-label" for="name">Please, insert your name</label>
-        <input class="form-control" id="name" type="text" placeholder="name" />
-      </div>
-  
-      <!-- Email address input -->
-      <div class="mb-3">
-        <label class="form-label" for="emailAddress">Email address</label>
-        <input class="form-control" id="emailAddress" type="email" placeholder="email address" />
-      </div>
-  
-      <!-- Message input -->
-      <div class="mb-3">
-        <label class="form-label" for="message">Message</label>
-        <textarea class="form-control" id="message" type="text" placeholder="message" style="height: 10rem;"></textarea>
-      </div>
-  
-      <!-- Form submit button -->
-      <div class="d-grid">
-        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
-      </div>
-  
-    </form>
-  
-  </div>
+      <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+        <div class="text-fields">
+          <input type="text" name="name" class="text-input name-input" placeholder="Name">
+          <input type="text" name="subject" class="text-input subject-input" placeholder="Subject">
+          <input type="email" name="email" class="text-input email-input" placeholder="Email Address">
+          <input type="text" name="phone" class="text-input phone-input" placeholder="Phone Number">
+          <textarea name="message" class="text-input message-input" placeholder="Enter Message"></textarea>
+          </div>
+        <button type="submit" class="btn-custom border-0">Submit</button>
+      </form>
+    </div>
+  </section>
+
+<!-- Section B: An Image Dzina Butko -->
+<section id="contact-b" class="text-center py-3">
+  <div class="container">
+    <h2 class="section-title">Let's give your project 100% quality!</h2>
+    <img src="assets/images/homepage.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    
+  </section>
 
 
     

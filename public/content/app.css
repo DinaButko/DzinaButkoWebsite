@@ -33,6 +33,7 @@
   }
   .navbar .navbar-nav .nav-link:hover::after {
     width: 100%;
+ 
   }
 
   
@@ -65,7 +66,175 @@ footer {
     background-color: #D3DEDC;
 }
 
+#contact-a .text-fields {
+  display: grid;
+  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-gap: 1.2rem;
+  margin-bottom: 1.2rem; }
+  #contact-a .text-fields .name-input {
+    grid-area: name; }
+  #contact-a .text-fields .subject-input {
+    grid-area: subject; }
+  #contact-a .text-fields .email-input {
+    grid-area: email; }
+  #contact-a .text-fields .phone-input {
+    grid-area: phone; }
+  #contact-a .text-fields .message-input {
+    grid-area: message;
+    height: 100px; }
+  #contact-a .text-fields .text-input {
+    padding: .5rem 1rem; }
+
+#contact-a button[type='submit'] {
+  width: 20%; 
+  height: 50px;
+}
+
+.btn-custom {
+  background-color: #D3DEDC;
+  border-color: rgb(167, 233, 245);
+  color: #212529;
+}
 
 
+#contact-b {
+  margin-top: 0%;
+  background: linear-gradient(135deg
+, rgb(253, 233, 221), rgb(236, 225, 240));
+    background-image: linear-gradient(
+135deg
+, rgb(253, 233, 221), rgb(236, 225, 240));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+  width: 100%;
+  height: 500px;
+}
 
+#contact-a {
+  background-color: linear-gradient(
+    135deg
+    , rgb(232, 219, 252), rgb(248, 249, 210));
+        background-image: linear-gradient(
+    135deg
+    , rgb(232, 219, 252), rgb(248, 249, 210));
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;;
+ 
+  
+}
+
+#contact-c {
+  width: 100%;
+  height: 1000px;
+  display: block;
+  background-color: linear-gradient(
+    135deg
+    , rgb(244, 220, 208), rgb(170, 201, 206));
+        background-image: linear-gradient(
+    135deg
+    , rgb(244, 220, 208), rgb(170, 201, 206));
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;;
+}
+
+#contact-d {
+  width: 100%;
+  height: 1000px;
+  
+  background: linear-gradient(
+    135deg
+    , rgb(228, 254, 246), rgb(255, 233, 251));
+        background-image: linear-gradient(
+    135deg
+    , rgb(228, 254, 246), rgb(255, 233, 251));
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+}
+
+#card-1{
+  background-color: linear-gradient(
+    135deg
+    , rgb(232, 219, 252), rgb(248, 249, 210));
+        background-image: linear-gradient(
+    135deg
+    , rgb(232, 219, 252), rgb(248, 249, 210));
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+}
+
+
+#section-d {
+  width: 100%;
+  height: 1000px;
+  linear-gradient(
+135deg
+, rgb(197, 208, 226), rgb(244, 246, 249));
+    background-image: linear-gradient(
+135deg
+, rgb(197, 208, 226), rgb(244, 246, 249));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+#section-e {
+  width: 100%;
+  height: 1000px;
+  background-color: linear-gradient(
+    135deg
+    , rgb(228, 254, 246), rgb(255, 233, 251));
+        background-image: linear-gradient(
+    135deg
+    , rgb(228, 254, 246), rgb(255, 233, 251));
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+}
 
