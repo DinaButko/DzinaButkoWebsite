@@ -10,15 +10,20 @@
       <div class="bottom-line"></div>
       <p class="lead">Here is how you can reach me</p>
 
-      <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+      <form action="/home" method="POST">
         <div class="text-fields">
+    
           <input type="text" name="name" class="text-input name-input" placeholder="Name">
           <input type="text" name="subject" class="text-input subject-input" placeholder="Subject">
           <input type="email" name="email" class="text-input email-input" placeholder="Email Address">
           <input type="text" name="phone" class="text-input phone-input" placeholder="Phone Number">
           <textarea name="message" class="text-input message-input" placeholder="Enter Message"></textarea>
           </div>
-        <button type="submit" class="btn-custom border-0">Submit</button>
+        
+          <a href="/home">
+            <input type="button" value="Submit" />
+         </a>
+    
       </form>
     </div>
   </section>
