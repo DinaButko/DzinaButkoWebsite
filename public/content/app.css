@@ -228,8 +228,8 @@ footer {
 }
 
 #section-e {
-  width: 100%;
-  height: 800px;
+  width: 110%;
+  height: 1000px;
   background-color: linear-gradient(
     135deg
     , rgb(228, 254, 246), rgb(255, 233, 251));
@@ -251,6 +251,11 @@ footer {
 #card-1 {
   width: 100%;
   height: 500px;
+}
+
+ /* Change color for the text in the section "Services" */
+.card-title {
+  color: #48c2f9;
 }
 
 
