@@ -76,9 +76,10 @@
   #contactme .text-fields .text-input {
     padding: .5rem 1rem; }
 
-#contactme button[type='submit'] {
-  width: 20%; 
-  height: 50px;
+#contactme 
+button[type='submit'] {
+  width: 30%; 
+  height: 80px;
 }
 
 .btn-custom {
