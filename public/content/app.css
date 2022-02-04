@@ -234,6 +234,16 @@
     background-color: initial;
 }
 
+.card.mt-3 {
+  margin: 30px;
+  padding: 30px;
+}
+.card-img-top {
+  margin: 20px;
+  padding: 40px;
+}
+
+
 /* Create background color for the tab "Services" */ 
 
 #services {
