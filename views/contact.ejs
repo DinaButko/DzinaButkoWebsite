@@ -1,45 +1,9 @@
+<!--Dzina Butko ID 301215947  Assignment Date  08/02/2021 -->
 
 <%- include partials/header.ejs %>
 <%- include partials/main_nav.ejs %>
 
-
-  <!-- Section A: Contact Form Dzina Butko -->
-  <section id="contact-a" class="text-center py-3">
-    <div class="container">
-      <h2 class="section-title">Contact Me</h2>
-      <div class="bottom-line"></div>
-      <p class="lead">Here is how you can reach me</p>
-
-      <form action="/home" method="POST">
-        <div class="text-fields">
-    
-          <input type="text" name="name" class="text-input name-input" placeholder="Name">
-          <input type="text" name="subject" class="text-input subject-input" placeholder="Subject">
-          <input type="email" name="email" class="text-input email-input" placeholder="Email Address">
-          <input type="text" name="phone" class="text-input phone-input" placeholder="Phone Number">
-          <textarea name="message" class="text-input message-input" placeholder="Enter Message"></textarea>
-          </div>
-        
-          <a href="/home">
-            <input type="button" value="Submit" />
-         </a>
-    
-      </form>
-    </div>
-    </section>
-    
-
-<!-- Section B: An Image Dzina Butko -->
-<section id="contact-b" class="text-center py-3">
-  <div class="container">
-    <h2 class="section-title">Let's give your project 100% quality!</h2>
-      <i class="fas fa-envelope mt-4 fa-2x"></i>
-      <p>butkodina@gmail.com.com</p>
-
-    <img src="assets/images/homepage.png" width="320" height="320">
-  </div>
-  </section>
-
+<%- include partials/content_contact_me.ejs %>
 
 <%- include partials/bottom_nav.ejs %>
 <%- include partials/footer.ejs %>
