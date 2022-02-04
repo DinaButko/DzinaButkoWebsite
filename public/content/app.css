@@ -2,7 +2,7 @@
 
 /* custom css goes here */
 
-/* added color underline hover */
+/* Added color underline hover  in the navbar*/
 .navbar .navbar-nav .nav-link:hover {
     color: #FFADF0;
   }
@@ -55,39 +55,28 @@
   }
 }
 
+/* CSS Style for the form in the section "Contact me" */
 
-
-/* Footer Section */
-footer {
-   
-    padding: 5px;
-    text-align: center;
-    font-size: 1rem;
-    color: #323232;
-    line-height: 1.0em;
-    background-color: #c5f8ef;
-}
-
-#contact-a .text-fields {
+#contactme .text-fields {
   display: grid;
   grid-template-areas: 'name email' 'subject phone' 'message message';
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
-  #contact-a .text-fields .name-input {
+  #contactme .text-fields .name-input {
     grid-area: name; }
-  #contact-a .text-fields .subject-input {
+  #contactme .text-fields .subject-input {
     grid-area: subject; }
-  #contact-a .text-fields .email-input {
+  #contactme .text-fields .email-input {
     grid-area: email; }
-  #contact-a .text-fields .phone-input {
+  #contactme .text-fields .phone-input {
     grid-area: phone; }
-  #contact-a .text-fields .message-input {
+  #contactme .text-fields .message-input {
     grid-area: message;
     height: 100px; }
-  #contact-a .text-fields .text-input {
+  #contactme .text-fields .text-input {
     padding: .5rem 1rem; }
 
-#contact-a button[type='submit'] {
+#contactme button[type='submit'] {
   width: 20%; 
   height: 50px;
 }
@@ -98,8 +87,9 @@ footer {
   color: #212529;
 }
 
+/* Background color for the tab "Contact me" section "Email" */
 
-#contact-b {
+#email {
   margin-top: 0%;
   background: linear-gradient(135deg
 , rgb(253, 233, 221), rgb(236, 225, 240));
@@ -119,7 +109,9 @@ footer {
   height: 500px;
 }
 
-#contact-a {
+/* Background color for the tab "Contact me" section "Form" */
+
+#contactme {
   background-color: linear-gradient(
     135deg
     , rgb(232, 219, 252), rgb(248, 249, 210));
@@ -139,7 +131,9 @@ footer {
   
 }
 
-#contact-c {
+/* Create background color for the tab "About Me" */ 
+
+#aboutme {
   width: 100%;
   height: 1000px;
   display: block;
@@ -159,6 +153,8 @@ footer {
         background-clip: initial;
         background-color: initial;;
 }
+
+/* Background color for the tab "Home" */
 
 #home {
   width: 100%;
@@ -181,6 +177,9 @@ footer {
         background-color: initial;
 }
 
+
+/* Background color for the card in the tab "Home */
+
 #card-1{
   background-color: linear-gradient(
     135deg
@@ -199,18 +198,24 @@ footer {
         background-color: initial;
 }
 
+
+/* Create color link for the tab "Home" */
+
 #home a {
   color: #FFA1C9;
   text-decoration: none;
 }
-#contact-c a {
+
+/* Create color link for the tab "About Me" */
+
+#aboutme a {
   color: #FFA1C9;
   text-decoration: none;
 }
 
+/* Create background color for the tab "Projects" */
 
-
-#section-d {
+#projects {
   width: 100%;
   height: 800px;
   background-color:linear-gradient(
@@ -229,7 +234,9 @@ footer {
     background-color: initial;
 }
 
-#section-e {
+/* Create background color for the tab "Services" */ 
+
+#services {
   width: 110%;
   height: 1000px;
   background-color: linear-gradient(
@@ -249,18 +256,26 @@ footer {
         background-color: initial;
 }
 
-
-#card-1 {
-  width: 100%;
-  height: 500px;
-}
-
  /* Change color for the text in the section "Services" */
+
 .card-title {
   color: #48c2f9;
 }
 
+/* Change color for the envelop */ 
 
 .fas.fa-envelope.mt-4.fa-2x {
   color: #FFA1C9;
+}
+
+
+/* Footer Section */
+
+footer {
+  padding: 5px;
+  text-align: center;
+  font-size: 1rem;
+  color: #323232;
+  line-height: 1.0em;
+  background-color: #c5f8ef;
 }
